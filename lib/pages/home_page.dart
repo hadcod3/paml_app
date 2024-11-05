@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_app/components/bottom_nav_bar.dart';
+import 'package:flutter_app/pages/logout_page.dart';
 import 'package:flutter_app/pages/profile_page.dart';
 import 'package:flutter_app/pages/shop_page.dart';
 
@@ -22,13 +23,14 @@ class _HomePageState extends State<HomePage> {
 
   final List<Widget> _pages = [
     const ShopPage(),
-    const ProfilePage()
+    const ProfilePage(),
+    const LogoutPage()
   ];
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.grey[300],
+      backgroundColor: Colors.white,
       bottomNavigationBar: BottomNavBar(
         onTabChange: (index) => navigateBottomBar(index),
       ),
