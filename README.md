@@ -1,16 +1,8 @@
-# flutter_app
-
-A new Flutter project.
-
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Apps Capture
+- Splashscreen = assets/screenshoot/splashscreen_capture.png
+- SignIn Screen = assets/screenshoot/signin_capture.png
+- SignUp Screen = assets/screenshoot/signup_capture.png
+- Forgot Password Screen = assets/screenshoot/forgot_password_capture.png
+- Home Screen = assets/screenshoot/home_page_capture.png
+- Profile Screen = assets/screenshoot/profile_page_capture.png
+- Edit Profile Screen = assets/screenshoot/edit_profile_capture.png
